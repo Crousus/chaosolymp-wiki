@@ -2,7 +2,7 @@
 title: Livemap
 description: Alle Befehle zum Moderieren der Dynmap
 published: true
-date: 2021-09-06T19:43:11.878Z
+date: 2021-09-06T19:46:39.922Z
 tags: dynmap, karte, livekarte, livemap, map, marker, rendern, tags
 editor: ckeditor
 dateCreated: 2021-09-06T18:38:18.752Z
@@ -11,40 +11,42 @@ dateCreated: 2021-09-06T18:38:18.752Z
 <h1>Livemap Befehle</h1>
 <p>&nbsp;</p>
 <ul>
-  <li><mark class="marker-green">/dynmap hide:</mark> &nbsp;Versteckt dich auf der Livekarte (Man ist auch im Gm3 sichtbar, Befehl hält für immer)</li>
-  <li><mark class="marker-green">/dynmap show:</mark> Zeigt dich wieder auf der Livekarte</li>
-  <li><code>/dynmap show</code></li>
+  <li><code>/dynmap hide</code> &nbsp;Versteckt dich auf der Livekarte (Man ist auch im Gm3 sichtbar, Befehl hält für immer)</li>
+  <li><code>/dynmap show</code> &nbsp;Zeigt dich wieder auf der Livekarte</li>
 </ul>
 <p>&nbsp;</p>
 <h2>Render</h2>
 <p>&nbsp;</p>
 <ul>
-  <li><mark class="marker-green">/dynmap render:</mark> Rendert das Quadrat in dem du stehst</li>
-  <li><mark class="marker-green">/dynmap radiusrender &lt;radius&gt;:</mark> Rendert das Gebiet im angegeben Radius</li>
-  <li><mark class="marker-green">/dynmap cancelrender &lt;welt&gt;:</mark> Bricht den Render in der gewählten Welt ab (Keine Welt angeben um die aktuelle abzubrechen</li>
+  <li><code>/dynmap render</code> &nbsp;Rendert das Quadrat in dem du stehst</li>
+  <li><code>/dynmap radiusrender &lt;radius&gt;</code> &nbsp;Rendert das Gebiet im angegeben Radius</li>
+  <li><code>/dynmap cancelrender &lt;welt&gt;</code> &nbsp;Bricht den Render in der gewählten Welt ab (Keine Welt angeben um die aktuelle abzubrechen</li>
 </ul>
 <p>&nbsp;</p>
 <h2>Livemap Tags</h2>
 <p>&nbsp;</p>
 <ul>
-  <li><mark class="marker-green">/dmarker add id:&lt;id&gt; &lt;label&gt; icon:&lt;icon&gt; set:&lt;set-id&gt;</mark> Fügt einen Livemap Tag an deiner Postion hinzu<ul>
+  <li><code>/dmarker add id:&lt;id&gt; &lt;label&gt; icon:&lt;icon&gt; set:&lt;set-id&gt;</code> Fügt einen Livemap Tag an deiner Postion hinzu<ul>
       <li>ID: Ist der einzigartige Name um diesen Tag identifizierbar machen zu können</li>
       <li>Label: Ist der Name welcher auf der Karte gezeigt wird. Dieser kann beliebig oft vorkommen</li>
       <li>Icon: Definiert welches Icon genommen werden soll. <a href="https://camo.githubusercontent.com/564f8e6e4f240bcb3dd14876b4de0ccf5535fc3117e7160924c46eeb895152bf/687474703a2f2f6d696b657072696d6d2e636f6d2f696d616765732f4d61726b6572732e706e67">Eine Auswahl gibt's hier.</a></li>
       <li>Set: Jedes Icon muss in ein Set gespeichert werden. Das ist wie ein Ordne</li>
     </ul>
   </li>
-  <li><mark class="marker-green">/dmarker listsets:</mark> Listet alle existierenden Sets auf</li>
-  <li><mark class="marker-green">/dmarker addset id:&lt;id&gt; &lt;label&gt;:</mark> Erstellt ein neues Set mit ID und Namen</li>
-  <li><mark class="marker-green">/dmarker movehere id:&lt;id&gt; set:&lt;set&gt;</mark> Verschiebt den Marker zu deiner Position</li>
-  <li><mark class="marker-green">/dmarker delete id:&lt;id&gt; set:&lt;set&gt;</mark> Löscht einen Marker wieder</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+  <li><code>/dmarker listsets</code> &nbsp;Listet alle existierenden Sets auf</li>
+  <li><code>/dmarker addset id:&lt;id&gt; &lt;label&gt;</code> &nbsp;Erstellt ein neues Set mit ID und Namen</li>
+  <li><code>/dmarker movehere id:&lt;id&gt; set:&lt;set&gt;</code> &nbsp;Verschiebt den Marker zu deiner Position</li>
+  <li><code>/dmarker delete id:&lt;id&gt; set:&lt;set&gt;</code> &nbsp;Löscht einen Marker wieder</li>
 </ul>
 <p>&nbsp;</p>
 <h2>Welt von der Karte verschwinden lassen</h2>
 <p>&nbsp;</p>
 <p>Befehle in dieser Reihenfolge eingeben um eine Weltkarte zu entfernen oder wieder hinzuzufügen</p>
 <ol>
-  <li><mark class="marker-green">/dynmap pause</mark></li>
-  <li><mark class="marker-green">/dmap worldset &lt;welt&gt; enabled:&lt;true/false&gt;</mark></li>
-  <li><mark class="marker-green">/dynmap pause none</mark></li>
+  <li><code>/dynmap pause</code></li>
+  <li><code>/dmap worldset &lt;welt&gt; enabled:&lt;true/false&gt;</code></li>
+  <li><code>/dynmap pause none</code></li>
 </ol>
