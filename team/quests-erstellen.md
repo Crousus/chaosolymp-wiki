@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T20:00:06.762Z
+date: 2021-09-09T20:04:49.148Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -45,8 +45,10 @@ dateCreated: 2021-09-07T19:11:28.370Z
 <p>
 <img src="/quests/stage_overview_1.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
 </p>
-
-
+-  Kartoffel: Hier kann eine Belohnung gesetzt werden, welche der Spieler nach Abschluss dieses Quest Abschnitts erhalten soll. Das sind meistens Questitems welche für die nächste Stage benötigt werden.
+<p>
+-  <b>Schild:</b> Hier kann 
+</p>
  
 
  
