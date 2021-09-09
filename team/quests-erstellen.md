@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T21:11:35.870Z
+date: 2021-09-09T21:12:17.842Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -55,10 +55,10 @@ dateCreated: 2021-09-07T19:11:28.370Z
    	benötigt werden.
 	</li>
 	<li>
-	 <b>Schild:</b> Ermöglicht es eine Beschreibung für den Schritt zu setzen. Diese wird dann im Quest Scoreboard angezeigt
+	 <b>Schild:</b> Ermöglicht es eine Beschreibung für den Schritt zu setzen. Diese wird dann im Quest Scoreboard angezeigt.
 	</li>
 	<li>
-	 <b>Feder:</b> Wird benutzt um eine Startnachricht zu setzen. Diese wird vor dem Beginn der Stage dem Spieler gezeigt
+	 <b>Feder:</b> Wird benutzt um eine Startnachricht zu setzen. Diese wird vor dem Beginn der Stage dem Spieler gezeigt.
 	</li>
 	<li>
 	 <b>Netherstern:</b> Damit können sogenannte Validierungsanforderungen definiert werden. Mehr dazu unter <a href="#validy">Validierungsanforderungen</a>
@@ -67,10 +67,10 @@ dateCreated: 2021-09-07T19:11:28.370Z
 	 <b>Kiste:</b> Im Fall <a href="#bring_back">Items zurückbringen</a> können hier die Items im Nachhinein angepasst werden.
 	</li>
     	<li>
-	 <b>Farbstoff:</b> Damit können die Partikel und HD Lines ausgeschaltet werden, welche über dem NPC zu sehen sind
+	 <b>Farbstoff:</b> Damit können die Partikel und HD Lines ausgeschaltet werden, welche über dem NPC zu sehen sind.
 	</li>
       	<li>
-	 <b>Dorfbewohner Ei:</b> Für die Änderung des Ziel NPCs
+	 <b>Dorfbewohner Ei:</b> Für die Änderung des Ziel NPCs.
 	</li>
 </ul>
 <p>
@@ -78,7 +78,7 @@ dateCreated: 2021-09-07T19:11:28.370Z
 </p>
 <ul>
 	<li>
-	 <b>Buch:</b> Ermöglicht es vor Stage beginn einen Dialog zwischen Spieler und NPC zu erstellen
+	 <b>Buch:</b> Ermöglicht es vor Stage beginn einen Dialog zwischen Spieler und NPC zu erstellen.
 	</li> 
   	<li>
 	 <b>Papier:</b> Keine Ahnung	
@@ -95,15 +95,15 @@ dateCreated: 2021-09-07T19:11:28.370Z
 <img src="/quests/validy.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
   </p>
 
-- Mit Validierungsanforderungen ist es möglich Regeln zu definieren, welche eingehalten werden müssen um die Quest zu Starten oder eine Stage abschließen bzw Fortschritte machen zu können
+- Mit Validierungsanforderungen ist es möglich Regeln zu definieren, welche eingehalten werden müssen um die Quest zu Starten oder eine Stage abschließen bzw Fortschritte machen zu können.
 
 - **Quest Benötigt:** Erlaubt es andere Quests zu setzen, welche abgeschlossen sein müssen.
-- **Erfahrungslevel:** Setzt das minimal erforderliche Erfahrungslevel vorraus
-- **Berechtigungen:** Permissions welche der Spieler braucht. Diese können willkürlich ausgedacht sein. Sollten aber beschreibend sein und immer einen Punkt haben. Also z.b quest.kraeuter
-- **Punktestand:** Damit kann ein Punktestand in einem beliebigen Scoreboard vorausgesetzt werden können
-- **Region:** Der Spieler muss um diese Regel zu erfüllen in der Region stehen
+- **Erfahrungslevel:** Setzt das minimal erforderliche Erfahrungslevel vorraus.
+- **Berechtigungen:** Permissions welche der Spieler braucht. Diese können willkürlich ausgedacht sein. Sollten aber beschreibend sein und immer einen Punkt haben. Also z.b quest.kraeuter.
+- **Punktestand:** Damit kann ein Punktestand in einem beliebigen Scoreboard vorausgesetzt werden.
+- **Region:** Der Spieler muss um diese Regel zu erfüllen in der Region stehen.
 - **Fertigkeitslevel:** Kann ein bestimmtes McMMO Level im gewählten Skill fordern. Hier gibt man zuerst den Skill an. z.B "Bergbau", anschließend das Level. z.B "100" und zuletzt den Vergleichsoperator. Heitß für kleiner Level 100 dann "less" für =100 "equal" und für >100 "greater
-- **Geld**: Bestimmt ob der Spieler eine bestimme Geldmenge benötigt. Dabei wird kein Geld abgezogen
+- **Geld**: Bestimmt ob der Spieler eine bestimme Geldmenge benötigt. Dabei wird kein Geld abgezogen.
 
 <div id="comparison"></div>
 
