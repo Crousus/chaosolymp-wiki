@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T21:12:17.842Z
+date: 2021-09-09T21:13:14.614Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -102,7 +102,8 @@ dateCreated: 2021-09-07T19:11:28.370Z
 - **Berechtigungen:** Permissions welche der Spieler braucht. Diese können willkürlich ausgedacht sein. Sollten aber beschreibend sein und immer einen Punkt haben. Also z.b quest.kraeuter.
 - **Punktestand:** Damit kann ein Punktestand in einem beliebigen Scoreboard vorausgesetzt werden.
 - **Region:** Der Spieler muss um diese Regel zu erfüllen in der Region stehen.
-- **Fertigkeitslevel:** Kann ein bestimmtes McMMO Level im gewählten Skill fordern. Hier gibt man zuerst den Skill an. z.B "Bergbau", anschließend das Level. z.B "100" und zuletzt den Vergleichsoperator. Heitß für kleiner Level 100 dann "less" für =100 "equal" und für >100 "greater
+- **Fertigkeitslevel:** Kann ein bestimmtes McMMO Level im gewählten Skill fordern. Hier gibt man zuerst den Skill an. z.B "Bergbau", anschließend das Level. z.B "100" und zuletzt den Vergleichsoperator. Heißt für kleiner Level 100 dann "less" für =100 "equal" und für >100 "greater.
+Also: Bergbau --> 100 --> greater
 - **Geld**: Bestimmt ob der Spieler eine bestimme Geldmenge benötigt. Dabei wird kein Geld abgezogen.
 
 <div id="comparison"></div>
