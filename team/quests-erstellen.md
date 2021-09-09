@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T20:58:13.093Z
+date: 2021-09-09T21:08:10.447Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -14,7 +14,7 @@ dateCreated: 2021-09-07T19:11:28.370Z
  
 #  Stages
  
-1. Auf Schleimball drücken um eine neue Stage zu erstellen
+1. Auf Schleimball drücken um eine neue Stage (Quest Abschnitt) zu erstellen
 2. Aufgabenart auswählen
 3. Ggf. geforderte Daten angeben
 
