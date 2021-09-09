@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T20:07:14.025Z
+date: 2021-09-09T20:30:46.515Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -45,12 +45,54 @@ dateCreated: 2021-09-07T19:11:28.370Z
 <p>
 <img src="/quests/stage_overview_1.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
 </p>
-<li>
--  Kartoffel: Hier kann eine Belohnung gesetzt werden, welche der Spieler nach Abschluss dieses Quest Abschnitts erhalten soll. Das sind meistens Questitems welche für die nächste Stage benötigt werden.
-</li>
+<ul>
+	<li>
+	 <b>Kartoffel:</b> Hier kann eine Belohnung gesetzt werden, welche der Spieler nach Abschluss dieses 			Quest Abschnitts erhalten soll. Das sind meistens Questitems welche für die nächste Stage
+   	benötigt werden.
+	</li>
+	<li>
+	 <b>Schild:</b> Ermöglicht es eine Beschreibung für den Schritt zu setzen. Diese wird dann im Quest Scoreboard angezeigt
+	</li>
+	<li>
+	 <b>Feder:</b> Wird benutzt um eine Startnachricht zu setzen. Diese wird vor dem Beginn der Stage dem Spieler gezeigt
+	</li>
+	<li>
+	 <b>Feder:</b> Wird benutzt um eine Startnachricht zu setzen. Diese wird vor dem Beginn der Stage dem Spieler gezeigt
+	</li>
+	<li>
+	 <b>Netherstern:</b> Damit können sogenannte Validierungsanforderungen definiert werden. Mher dazu unter <a href="#validy">Validierungsanforderungen</a>
+	</li>
+  	<li>
+	 <b>Kiste:</b> Im Fall "Items zurückbringen" können hier die Items im Nachhinein angepasst werden
+	</li>
+    	<li>
+	 <b>Farbstoff:</b> Damit können die Partikel und HD Lines ausgeschaltet werden welche über dem NPC zu sehen sind
+	</li>
+      	<li>
+	 <b>Dorfbewohner Ei:</b> Für die Änderung des Ziel NPCs
+	</li>
+</ul>
 <p>
--  <b>Schild:</b> Hier kann 
+<img src="/quests/stage_overview_2.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
 </p>
+<ul>
+	<li>
+	 <b>Buch:</b> Ermöglicht es vor Stage beginn einen Dialog zwischen Spieler und NPC zu erstellen
+	</li> 
+  	<li>
+	 <b>Papier:</b> Keine Ahnung	
+	</li> 
+  	<li>
+	 <b>Prismarin:</b> Siehe Gegenstandsvergleich
+	</li> 
+</ul>
+<div id="validy"></div>
+# Validierungsanforderungen
+
+- Mit Validierungsanforderungen ist es möglich Regeln zu definieren, welche eingehalten werden müssen um die Quest zu Starten oder eine Stage abschließen bzw Fortschritte machen zu können
+
+
+
  
 
  
