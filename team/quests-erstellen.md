@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T20:51:30.678Z
+date: 2021-09-09T20:51:37.700Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -107,6 +107,7 @@ dateCreated: 2021-09-07T19:11:28.370Z
 - **Geld**: Bestimmt ob der Spieler eine bestimme Geldmenge benötigt. Dabei wird kein Geld abgezogen
 
 <div id="comparison"></div>
+
 # Gegenstandsvergleich
 
 
