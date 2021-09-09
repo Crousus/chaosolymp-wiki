@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T20:31:11.708Z
+date: 2021-09-09T20:51:30.678Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -40,6 +40,8 @@ dateCreated: 2021-09-07T19:11:28.370Z
 > Immer vorher erstellen und dann mit dem Stick zuweisen!
 {.is-info}
 
+<div id="parameters"></div>
+
 ## Stage Parameter einstellen
 
 <p>
@@ -60,10 +62,10 @@ dateCreated: 2021-09-07T19:11:28.370Z
 	 <b>Feder:</b> Wird benutzt um eine Startnachricht zu setzen. Diese wird vor dem Beginn der Stage dem Spieler gezeigt
 	</li>
 	<li>
-	 <b>Netherstern:</b> Damit können sogenannte Validierungsanforderungen definiert werden. Mher dazu unter <a href="#validy">Validierungsanforderungen</a>
+	 <b>Netherstern:</b> Damit können sogenannte Validierungsanforderungen definiert werden. Mehr dazu unter <a href="#validy">Validierungsanforderungen</a>
 	</li>
   	<li>
-	 <b>Kiste:</b> Im Fall "Items zurückbringen" können hier die Items im Nachhinein angepasst werden
+	 <b>Kiste:</b> Im Fall <a href="#comparison">Items zurückbringen</a> können hier die Items im Nachhinein angepasst werden.
 	</li>
     	<li>
 	 <b>Farbstoff:</b> Damit können die Partikel und HD Lines ausgeschaltet werden welche über dem NPC zu sehen sind
@@ -83,14 +85,31 @@ dateCreated: 2021-09-07T19:11:28.370Z
 	 <b>Papier:</b> Keine Ahnung	
 	</li> 
   	<li>
-	 <b>Prismarin:</b> Siehe Gegenstandsvergleich
+	 <b>Prismarin:</b> Siehe <a href="#comparison">Gegenstandsvergleich</a>
 	</li> 
 </ul>
 <div id="validy"></div>
 
 # Validierungsanforderungen
+<p>
+
+<img src="/quests/validy.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
+  </p>
 
 - Mit Validierungsanforderungen ist es möglich Regeln zu definieren, welche eingehalten werden müssen um die Quest zu Starten oder eine Stage abschließen bzw Fortschritte machen zu können
+
+- **Quest Benötigt:** Erlaubt es andere Quests zu setzen, welche abgeschlossen sein müssen.
+- **Erfahrungslevel:** Selbsterklärend.
+- **Berechtigungen:** Permissions welche der Spieler braucht. Diese können willkürlich ausgedacht sein. Sollten aber deskriptiv sein und immer einen Punkt haben. Also z.b quest.kraeuter
+- **Punktestand:** Damit kann ein Punktestand in einem beliebigen Scoreboard vorrausgesetzt werden können
+- **Region:** Der Spieler muss um diese Regel zu erfüllen in der Region stehen
+- **Fertigkeitslevel:** Kann ein bestimmtes McMMO Level im geählten Skill fordern. Hier gibt man zuerst den Skill an. z.B "Bergbau", anschließend das Level. z.B "100" und zuletzt den Vergleichsoperator. Heitß für kleiner Level 100 dann "less" für =100 "equal" und für >100 "greater
+- **Geld**: Bestimmt ob der Spieler eine bestimme Geldmenge benötigt. Dabei wird kein Geld abgezogen
+
+<div id="comparison"></div>
+# Gegenstandsvergleich
+
+
 
 
 
