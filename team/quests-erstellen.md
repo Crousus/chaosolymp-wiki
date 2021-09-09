@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T21:10:04.545Z
+date: 2021-09-09T21:11:06.857Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -98,7 +98,7 @@ dateCreated: 2021-09-07T19:11:28.370Z
 - Mit Validierungsanforderungen ist es möglich Regeln zu definieren, welche eingehalten werden müssen um die Quest zu Starten oder eine Stage abschließen bzw Fortschritte machen zu können
 
 - **Quest Benötigt:** Erlaubt es andere Quests zu setzen, welche abgeschlossen sein müssen.
-- **Erfahrungslevel:** Selbsterklärend.
+- **Erfahrungslevel:** Setzt das minimal erforderliche Erfahrungslevel vorraus
 - **Berechtigungen:** Permissions welche der Spieler braucht. Diese können willkürlich ausgedacht sein. Sollten aber deskriptiv sein und immer einen Punkt haben. Also z.b quest.kraeuter
 - **Punktestand:** Damit kann ein Punktestand in einem beliebigen Scoreboard vorausgesetzt werden können
 - **Region:** Der Spieler muss um diese Regel zu erfüllen in der Region stehen
