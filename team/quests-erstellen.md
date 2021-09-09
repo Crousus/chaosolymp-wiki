@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T20:51:37.700Z
+date: 2021-09-09T20:53:30.615Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -17,6 +17,8 @@ dateCreated: 2021-09-07T19:11:28.370Z
 1. Auf Schleimball drücken um eine neue Stage zu erstellen
 2. Aufgabenart auswählen
 3. Ggf. geforderte Daten angeben
+
+<div id="bring_back"></div>
 
 #### Beispiel Items zurück bringen
 
@@ -40,7 +42,7 @@ dateCreated: 2021-09-07T19:11:28.370Z
 > Immer vorher erstellen und dann mit dem Stick zuweisen!
 {.is-info}
 
-<div id="parameters"></div>
+
 
 ## Stage Parameter einstellen
 
@@ -65,7 +67,7 @@ dateCreated: 2021-09-07T19:11:28.370Z
 	 <b>Netherstern:</b> Damit können sogenannte Validierungsanforderungen definiert werden. Mehr dazu unter <a href="#validy">Validierungsanforderungen</a>
 	</li>
   	<li>
-	 <b>Kiste:</b> Im Fall <a href="#comparison">Items zurückbringen</a> können hier die Items im Nachhinein angepasst werden.
+	 <b>Kiste:</b> Im Fall <a href="#bring_back">Items zurückbringen</a> können hier die Items im Nachhinein angepasst werden.
 	</li>
     	<li>
 	 <b>Farbstoff:</b> Damit können die Partikel und HD Lines ausgeschaltet werden welche über dem NPC zu sehen sind
