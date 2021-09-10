@@ -2,8 +2,8 @@
 title: Homes & Teleport
 description: Infos über das Homesystem, Warps und Tpa
 published: true
-date: 2021-09-06T21:23:12.698Z
-tags: home, teleport, tp, tpa, warp
+date: 2021-09-06T21:23:13.808Z
+tags: home, tpa, teleport, tp, warp
 editor: markdown
 dateCreated: 2021-09-06T21:16:09.055Z
 ---
