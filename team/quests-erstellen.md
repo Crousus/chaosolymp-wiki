@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-12T16:34:44.141Z
+date: 2021-09-12T19:12:07.742Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -132,8 +132,55 @@ Belohnugen können zu Quest Beginn, vor und nach jeder Stage und am Ende der Que
 <img src="/quests/reward.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
 - Befehl ausführen. Hier können beliebige Konsolen Befehle eingegeben werden, welche ausgeführt werden sollen. Bei mehreren empfiehlt es sich eine kleine Verzögerung zwischen allen Befeheln zu haben.
 
-- Belohnungsitems:
+- Belohnungsitems: Funktioniert wie bei Items zurückbringen
+- Abschlussnachricht: Damit kann eine Letzte Nachricht gesetzt werden, welche ausgeführt werden soll. Es empfiehlt sich die Dialog Option stattdessen zu nehmen
+- Geldbelohnung: Ermöglicht es Geld zu senden.
+- Berechtgungen: Damit können dem Spieler Permissions zugewiesen oder genommen zu werden.
+- Teleportationsposition: Teleportiere den Spieler an einen Beliebigen Ort
+- Erfahrung: Gebe dem Spieler Erfahrungspunkte oder Level
+- Belohnung mit Vorraussetzung: Lässt eine bestimmte Belohung aus wenn eine gewisse Vorraussetzung nicht gegeben ist. Siehe <a href="#validy">Validierungsanforderungen</a>.
+- Wait Reward: Keine Ahnung
+- Title Rewar: Zeigt dem Spieler einen Schriftzug auf dem Bildschirm
 
+# Finale Einstellung
+<br>
+<img src="/quests/quest_save.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
+
+### Farbstoff
+
+1. Questlimit nicht zählen: Benutzen wir nicht
+2. Vom Spieler abbrechbar: Definiert ob der Spieler die Quest abbrechen kann.
+3. Über Gui startbar: Regelt ob der Spieler überall mit /quests die Quest starten kann
+4. Im Todesfall abbrechen: Wenn der Spieler stirbt wird die quest abgebrochen
+5. Verstecken wenn Anforderungen nicht erfüllt: Zeigt die Quest im GUI nicht an wenn die Anforderungen für den Start nicht erfüllt sind
+6. Scoreboard: Bestimmt ob das Scoreboard den Queststatus anzeigen soll oder nicjt
+7. Dynmap verstecken: Definiert ob der Start NPC einen Livemap Tag erhalten soll
+8. Beitritt automatisch starten: Wenn der Spieler das erste Mal auf den Server joint wird die Quest gestartet
+9. Wiederholbar: Sollte die Quest wiederholbar sein?. Wenn ja anschließend Cooldown in Minuten bearbeiten
+
+
+
+> Folgende Einstellungen müssen gesetzt werden:
+Ja: Abbrechbar, Verstecken wenn nicht erfüllt, Scoreboard, Dynmap verstecken, Wiederholbar bei dailys
+Nein: Über GUI startbar, 
+{.is-warning}
+
+
+### Andere Einstellungen
+
+- Namensschild: Setzt den Questnamen. Pflichtfeld
+- Buch: Material der Quest. Die Quest wird mit diesem Material im Menü angezeigt
+- Bild: Nicht anfassen
+- Rote Scheibe: Nicht anfassen
+- Netherstern: <a href="#validy">Validierungsanforderungen</a>.
+- Kiste: Questgruppe, nicht anfassen
+- Papier rechts: Nachricht welche am Ende der Quest gesendet wird
+- Buch & Feder: Dialog welcher vor dem Queststart geführt werden soll
+- Dorfbewohner Ei: Lege einen NPC fest welcher die Quest starten soll
+- Papier links: Nachricht welche beim Queststart gesendet werden soll. Nicht anfassen
+- Startbelohnung: Nicht anfassen
+- Schild: Questbeschreibung welche in der GUI gezeigt wird. Nicht wichtig
+- Goldbarren: Alle Änderungen speichern
 
 
 
