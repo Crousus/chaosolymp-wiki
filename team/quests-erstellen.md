@@ -2,8 +2,8 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-09T21:13:25.109Z
-tags: quests, quest, erstellen
+date: 2021-09-12T16:34:44.141Z
+tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
 ---
@@ -109,6 +109,35 @@ Also z.B: Bergbau --> 100 --> greater
 <div id="comparison"></div>
 
 # Gegenstandsvergleich
+<br>
+<img src="/quests/compare.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
+
+Beim Gegenstandsvergleich können Regeln festgelegt werden, welche Items beim zurückbringen akzeptiert werden.
+
+1. Modus: Alle Komponenten müssen exakt Gleich sein. Jegliche mini Abweichung in den NBT Daten wird nicht angenommen
+2. Modus: Alles ausser die NBT Daten wird verglichen. NBT Daten sind zb: Max Enchant Level, Tags
+3. Modus: Nur das Material ist wichtig, alles andere wird ignoriert.
+4. Modus: Der Name wird beim Vergleich mit einbezogen
+5. Modus: Die Lore wird mit verglichen
+6. Modus: Prüft ob die Verzauberungen gleich sind
+7. Modus: Prüft ob die (Level) Kosten bei der Reparatur 
+
+> Die Modi können miteinander kombiniert werden. Also z.B Modus 2 mit Modus 4 würde das Material und den Namen berücksichtigen.
+{.is-info}
+
+# Belohnungen
+
+Belohnugen können zu Quest Beginn, vor und nach jeder Stage und am Ende der Quest vergeben werden.
+<br>
+<img src="/quests/reward.png" alt="stage-edit" width="300" style="margin-left: 20px"/>
+- Befehl ausführen. Hier können beliebige Konsolen Befehle eingegeben werden, welche ausgeführt werden sollen. Bei mehreren empfiehlt es sich eine kleine Verzögerung zwischen allen Befeheln zu haben.
+
+- Belohnungsitems:
+
+
+
+
+
 
 
 
