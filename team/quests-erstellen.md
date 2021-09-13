@@ -1,8 +1,8 @@
 ---
-title: Quest Erstellung
+title: Quests erstellen
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-13T19:09:05.350Z
+date: 2021-09-13T19:09:23.781Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
