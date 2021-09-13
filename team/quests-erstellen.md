@@ -2,7 +2,7 @@
 title: Quests Erstellung
 description: Guide um Quests zu erstellen
 published: true
-date: 2021-09-13T19:08:14.354Z
+date: 2021-09-13T19:08:37.340Z
 tags: erstellen, quest, quests
 editor: markdown
 dateCreated: 2021-09-07T19:11:28.370Z
@@ -161,8 +161,8 @@ Belohnugen können zu Questbeginn, vor und nach jeder Stage und am Ende der Ques
 
 
 > Folgende Einstellungen **müssen** gesetzt werden:
-Ja: Abbrechbar, Verstecken wenn nicht erfüllt, Scoreboard, Dynmap verstecken, Wiederholbar bei Dailys
-Nein: Über GUI startbar, 
+**Ja:** Abbrechbar, Verstecken wenn nicht erfüllt, Scoreboard, Dynmap verstecken, Wiederholbar bei Dailys
+**Nein:** Über GUI startbar, 
 {.is-warning}
 
 
