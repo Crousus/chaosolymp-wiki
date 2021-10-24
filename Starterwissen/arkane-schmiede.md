@@ -2,8 +2,8 @@
 title: Arkane Schmiede
 description: Wie funktioniert die Arkane Schmiede?
 published: true
-date: 2021-10-24T22:48:07.102Z
-tags: schmiede, arkane schmiede, spawn, special items
+date: 2021-10-24T22:48:23.456Z
+tags: arkane schmiede, schmiede, spawn, special items
 editor: markdown
 dateCreated: 2021-10-24T22:48:07.102Z
 ---
@@ -31,4 +31,5 @@ Das Erz erhaltet ihr aus Lootboxen und im Questshop beim Quest NPC.
 Der Reperaturvorgang geht ganz einfach. Die Kristalle in das rechte Feld und das zu reparierende Item in das Rechte. Anschlißend drückt ihr auf den grünen Knopf.
 
 
+![schmiede_demo.gif](/arkane_schmiede/schmiede_demo.gif)
 
